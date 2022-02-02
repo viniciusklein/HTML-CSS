@@ -1,0 +1,24 @@
+@charset "UTF8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#rações{
+   
+    background-color:  #45D1DE;
+    width:500px;
+    height: 450px;
+    border: 1px solid darkslategrey;
+    border-radius: 15px;
+    
+      
+    
+    
+    }
+    article#goldem{
+      
+    background-color: #40F5D2;
+    padding: 10px;
+    }

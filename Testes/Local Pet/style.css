@@ -1,0 +1,56 @@
+@charset "UTF8";
+
+
+body{
+    background-color: #45d1de3f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 40px;
+
+    background-color: rgb(167, 106, 38);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid rgb(139, 65, 15);
+    border-radius: 15px;
+}
+header > h1 > p{
+    display: none;
+
+}
+header > h1:hover > p{
+    display: block;
+}
+nav#paginas > a{
+
+    font-size: 30px;
+    background-color: #4ED0FA ;
+    width: 150px;
+    padding: 5px;
+    border: 3px solid #1596c2;
+    border-radius: 15px;
+    
+    
+}
+nav#paginas > a{
+   
+    text-decoration: none ;
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    
+
+}
+nav#paginas > a:hover{
+    text-decoration: underline;
+}
+nav#redes > a#reedes{
+    margin-bottom: 30px;
+}
+
