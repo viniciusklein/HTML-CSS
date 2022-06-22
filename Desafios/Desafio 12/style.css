@@ -50,10 +50,11 @@ section.imagem{
     background-color: rgba(24, 21, 21, 0.774);
     color: white;
 }
-section.imagem > p{
+section.imagem > p {
     width: 400px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.24);
 }
+
 footer{
     background-color: black;
     text-align: center;
