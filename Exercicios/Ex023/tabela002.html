@@ -13,6 +13,13 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td, th{
@@ -24,6 +31,20 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+
+        }
+        tbody > tr:nth-child(even){
+            background-color: white;
+
+        }
     </style>
 <body>
 
@@ -31,6 +52,7 @@
     <h1>Uso de tabelas grandes</h1>
 
     <!--anatomia para tabelas grandes
+        caption
     thead
     tr,td,th
     tbody
@@ -41,10 +63,13 @@
 -->
 
 <table>
+    <caption>População das unidades fgederatuivas
+
+    </caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 200px;">População</th>
         </tr>
 
     </thead>
@@ -64,19 +89,89 @@
             <td>17 264 943</td>
         </tr>
         <tr>
-            <td></td>
+            <td>MInas Gerais
+            </td>
+            <td>21 168 791</td>
         </tr>
+        <tr>
+            <td>MInas Gerais
+            </td>
+            <td>21 168 791</td>
+        </tr>
+        <tr>
+            <td>MInas Gerais
+            </td>
+            <td>21 168 791</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 049</td>
+        </tr>
+
+
 
     </tbody>
 
     <tfoot>
         <tr>
-            <th>Total de abitantes</th>
-            <td>0000</td>
+            <th scope="row">Total de abitantes</th>
+            <td>152620</td>
         </tr>
 
     </tfoot>
 </table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero dicta labore magnam. Facilis molestias corporis, porro vero harum eos doloremque atque laboriosam reprehenderit itaque voluptates reiciendis. Repudiandae, praesentium consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum voluptate quisquam eligendi molestiae, aut minus consequuntur et non tempora maiores omnis ipsa, numquam ducimus temporibus eius error neque voluptatum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dignissimos totam ratione sunt quod excepturi esse, perferendis consectetur fuga veritatis consequatur laborum mollitia, ea temporibus! Provident molestiae expedita quo odio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero dicta labore magnam. Facilis molestias corporis, porro vero harum eos doloremque atque laboriosam reprehenderit itaque voluptates reiciendis. Repudiandae, praesentium consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum voluptate quisquam eligendi molestiae, aut minus consequuntur et non tempora maiores omnis ipsa, numquam ducimus temporibus eius error neque voluptatum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dignissimos totam ratione sunt quod excepturi esse, perferendis consectetur fuga veritatis consequatur laborum mollitia, ea temporibus! Provident molestiae expedita quo odio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero dicta labore magnam. Facilis molestias corporis, porro vero harum eos doloremque atque laboriosam reprehenderit itaque voluptates reiciendis. Repudiandae, praesentium consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum voluptate quisquam eligendi molestiae, aut minus consequuntur et non tempora maiores omnis ipsa, numquam ducimus temporibus eius error neque voluptatum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dignissimos totam ratione sunt quod excepturi esse, perferendis consectetur fuga veritatis consequatur laborum mollitia, ea temporibus! Provident molestiae expedita quo odio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vero dicta labore magnam. Facilis molestias corporis, porro vero harum eos doloremque atque laboriosam reprehenderit itaque voluptates reiciendis. Repudiandae, praesentium consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum voluptate quisquam eligendi molestiae, aut minus consequuntur et non tempora maiores omnis ipsa, numquam ducimus temporibus eius error neque voluptatum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dignissimos totam ratione sunt quod excepturi esse, perferendis consectetur fuga veritatis consequatur laborum mollitia, ea temporibus! Provident molestiae expedita quo odio.</p>
 
 
 
