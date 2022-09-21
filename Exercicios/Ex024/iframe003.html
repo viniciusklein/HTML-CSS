@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, a sunt suscipit modi odio repudiandae voluptas placeat earum dolore fugiat doloremque rerum blanditiis eveniet molestias aliquid! Aut numquam hic dignissimos!</p>
+
+
+    <ul>
+        <li><a href="pag001.html" target="frame">priemira pagina</a></li>
+        <li><a href="pag002.html" target="frame">segunda pagina</a></li>
+        <li><a href="pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt neque perspiciatis ratione. Nesciunt commodi beatae labore, eligendi qui eius dolorum. Sequi sed aspernatur, recusandae illum error laboriosam debitis distinctio ratione? </p>
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opcoes acima</h1> <p>lorem</p><img src='imagens/cursoemvideo.png'>">
+        infelizmente seu navegador nao é compativel com isso
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, suscipit repellendus! Voluptatibus dignissimos modi unde explicabo quae minus. Voluptas commodi sed est dolore neque magnam quod consequuntur laudantium consequatur natus!</p>
+    
+</body>
+</html>
