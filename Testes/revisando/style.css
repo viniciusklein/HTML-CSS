@@ -1,0 +1,17 @@
+@charset "UTF8";
+
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 20px;
+
+
+}
+
+nav{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 60px;
+
+}
