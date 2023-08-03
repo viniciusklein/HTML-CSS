@@ -33,20 +33,57 @@ body{
 }
 
 header{
-    background-color: var(--cor4);
+   background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    text-align: center;
+
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
+
+  
 }
 
 header > p {
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width:500px ;
+    margin: auto;
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
 }
 
 nav {
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.39);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+
+    background-color: var(--cor3);
+    color: var(---cor5);
+
 }
 
 main {
