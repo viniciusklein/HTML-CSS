@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+   background-image: linear-gradient(to right, blue, green, grey);
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+h2.primeiro{
+    text-align: right;
+    background-color: aqua;
+}
+
+h2.segundo{
+    background-color: bisque;
+}
